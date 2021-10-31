@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat' , sans-serif;
+    background-color: rgb(241 , 240 , 240);
+    background-image: url('/img/circle.png'), url('/img/treugolnik.png');
+    background-repeat: no-repeat;
+    background-size: 300px, 300px, 100%;
+    background-position: bottom -150px left -70px, top -120px right -100px
+}
+
+.main{
+    width: 60vw;
+    max-width: 900px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left_block{
+    background: #fff;
+    height: 100%;
+    flex-grow: 2;
+    padding: 2rem 1rem;
+    text-align: center;
+    border-radius: 20px;
+    color: rgb(95, 102, 109);
+}
+
+.social_icon{
+    display: inline-block;
+    font-weight: 900;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    border: 1px solid currentColor;
+    color: rgb(95, 102, 109);
+}
+
+.social_icon:hover{
+    background:rgb(95, 102, 109);
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    margin: 1rem 1rem;
+    color: inherit;
+    font-family: inherit;
+    display: flex;
+    flex-direction: column;
+    color: rgb(95, 102, 109);
+}
+
+input{
+    margin: 0.5rem 0;
+    width: 300px;
+    padding: 1rem 0.75rem;
+    border: none;
+    color: inherit;
+    font-family: inherit;
+    background: rgb(241 , 240 , 240);
+}
+
+p{
+    margin: 1rem 0;
+    width: 100%;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    font-weight: 300;
+    text-align: center;
+    color: rgb(95, 102, 109);
+}
+
+.help{
+    border-bottom: 1px dashed #697a79;
+    padding-bottom: 5px;
+    width: 200px;
+    margin: 10px auto;
+    color: rgb(95, 102, 109);
+}
+
+.left_button{
+    border: 1px solid currentColor;
+    border-radius: 50px;
+    padding: 0.85rem 2.75rem;
+    margin: 2rem 0;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem;
+    background: #3ab19b;
+    color: white;
+}
+
+.left_button:hover{
+    border: 1px solid #778583;
+    -webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.36); 
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.36);
+}
+
+.right_block{
+    background: #3ab19b;
+    height: 100%;
+    flex-grow: 1;
+    padding: 2rem 1rem;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.right_block p{
+    color: white;
+    text-align: center;
+    margin: 1rem 0;
+    width: 300px;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    font-weight: 300;
+    text-align: center;
+}
+
+.right_block h2{
+    color: #fff;
+    margin: 7rem;
+    font-size: 1.9rem;
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+}
